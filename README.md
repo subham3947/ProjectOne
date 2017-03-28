@@ -1,3 +1,0 @@
-# CodeLocker
-# ProjectOne
-# ProjectOne
