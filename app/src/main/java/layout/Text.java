@@ -43,7 +43,7 @@ public class Text extends Fragment {
                 FragmentTransaction ft=fm.beginTransaction();
                 Fragment fr=new MapFragment();
                 fr.setArguments(args);
-                //ft.replace(R.id.content_frame, fr);
+                ft.replace(R.id.content_frame, fr);
                 ft.commit();
             }
         });
