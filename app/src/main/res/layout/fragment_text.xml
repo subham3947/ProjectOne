@@ -31,9 +31,12 @@
         android:text="SAVE"
         android:id="@+id/save"
         android:layout_below="@+id/rad"/>
+
     <TextView
+        android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/save"/>
+        android:layout_below="@+id/save"
+        android:textSize="30sp" />
 
 </RelativeLayout>
